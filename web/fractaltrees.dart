@@ -6,6 +6,7 @@ double deg_to_rad = PI / 180.0;
 
 void main() {
   drawForest();
+  querySelector('#PlantTree').onClick.listen((e) => drawForest());
 }
 
 void drawForest() {
